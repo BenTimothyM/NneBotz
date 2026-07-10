@@ -13,9 +13,9 @@ module.exports = {
 
   // Info credit bot (fitur .credit)
   CREATOR: {
-    studio: 'Nneb.dev',
-    studioLink: 'https://nneb.is-a.dev',
+    studio: 'Nneb.Dev',
+    studioLink: 'nneb.is-a.dev',
     developer: 'Ben Timothy',
-    githubLink: 'https://github.com/BenTimothyM',
+    githubLink: 'github.com/BenTimothyM',
   },
 };
