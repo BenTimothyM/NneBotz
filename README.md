@@ -106,4 +106,4 @@ Bot siap digunakan. Coba kirim `.menu` ke chat pribadi Anda sendiri (nomor yang 
 
 ---
 
-Dibuat oleh **Nneb.dev** (https://nneb.is-a.dev) — Developer: **Ben Timothy** (https://github.com/BenTimothyM)
+Dibuat oleh [**Nneb.dev**](https://nneb.is-a.dev) — Developer: [**Ben Timothy**](https://github.com/BenTimothyM)
