@@ -1,0 +1,26 @@
+{
+  "name": "nnebotz",
+  "version": "1.0.0",
+  "description": "Nnebotz - WhatsApp Bot berbasis Baileys dengan arsitektur modular (Command Handler Pattern)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Ben Timothy (nneb.is-a.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "wa-sticker-formatter": "^4.4.4",
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
