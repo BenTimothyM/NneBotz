@@ -13,10 +13,10 @@ module.exports = {
     const { studio, studioLink, developer, githubLink } = config.CREATOR;
 
     const text =
-      `NNEBOTZ\n\n` +
-      `**Created by:** *${studio}*\n` +
+      `𝗡 𝗡 𝗘 𝗕 𝗢 𝗧 𝗭\n\n` +
+      `_Created by:_ *${studio}*\n` +
       `🔗 *${studioLink}*\n` +
-      `**Developer:** *${developer}*\n` +
+      `_Developer:_ *${developer}*\n` +
       `🔗 *${githubLink}*\n\n` +
       `Terima kasih sudah menggunakan Nnebotz!`;
 
