@@ -73,7 +73,7 @@ Jika `wa-sticker-formatter`/`sharp` gagal saat instalasi di Linux, pastikan `bui
 sudo apt install -y build-essential python3
 ```
 
-# 3. Menjalankan Bot
+## 4. Menjalankan Bot
 
 ```bash
 npm start
