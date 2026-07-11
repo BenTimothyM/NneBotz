@@ -18,7 +18,7 @@ module.exports = {
     const uniqueCommands = [...new Set(commandMap.values())];
 
     let list = uniqueCommands
-      .map((cmd) => `➔ *${prefix}${cmd.name} _(${cmd.description})_`)
+      .map((cmd) => `➔ *${prefix}${cmd.name}* _(${cmd.description})_`)
       .join('\n\n');
 
     const text =
