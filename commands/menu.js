@@ -9,13 +9,16 @@ module.exports = {
   aliases: ['help'],
   description: 'Tampilkan menu daftar command.',
 
+  // commandMap dikirim oleh index.js agar menu bisa menampilkan semua command
+  // yang berhasil dimuat secara dinamis, tanpa perlu di-hardcode di sini.
   async execute(sock, msg, args, from, commandMap) {
     const prefix = config.PREFIX;
 
+    // Ambil daftar command unik (hindari duplikat karena alias menunjuk ke module yang sama)
     const uniqueCommands = [...new Set(commandMap.values())];
 
     let list = uniqueCommands
-      .map((cmd) => `[▢] *${prefix}${cmd.name}*\n   _${cmd.description}_`)
+      .map((cmd) => `➔ *${prefix}${cmd.name} _(${cmd.description})_`)
       .join('\n\n');
 
     const text =
